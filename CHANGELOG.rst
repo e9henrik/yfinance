@@ -1,6 +1,14 @@
 Change Log
 ===========
 
+0.2.24
+------
+Fix info[] missing values #1603
+
+0.2.23
+------
+Fix 'Unauthorized' error #1595
+
 0.2.22
 ------
 Fix unhandled 'sqlite3.DatabaseError' #1574
