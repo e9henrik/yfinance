@@ -1,6 +1,23 @@
 Change Log
 ===========
 
+0.2.31
+------
+- Fix TZ cache exception blocking import #1705 #1709
+- Fix merging pre-market events with intraday prices #1703
+
+0.2.30
+------
+- Fix OperationalError #1698
+
+0.2.29
+------
+- Fix pandas warning when retrieving quotes. #1672
+- Replace sqlite3 with peewee for 100% thread-safety #1675
+- Fix merging events with intraday prices #1684
+- Fix error when calling enable_debug_mode twice #1687
+- Price repair fixes #1688
+
 0.2.28
 ------
 - Fix TypeError: 'FastInfo' object is not callable #1636
